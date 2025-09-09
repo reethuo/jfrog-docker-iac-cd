@@ -35,4 +35,4 @@
         enabled: true
 
     - name: Run custom Java container
-      shell: docker run -d -p 8082:80 reethu2/java:{{ build_number }}
+      shell: docker run -d -p 8082:80 reethu2/java:20
