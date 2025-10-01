@@ -1,7 +1,7 @@
 provider "google" {
     
     zone = var.zone
-    project= "ritu-pro"
+    project= "disco-horizon-456904-b8"
   
 }
 resource "google_compute_instance" "inst" {
